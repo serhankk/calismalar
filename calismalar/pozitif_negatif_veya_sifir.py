@@ -1,10 +1,9 @@
 
-sayi = int(input('Bir sayı giriniz: '))
-
-if sayi == 0:
-    print('Sıfır.')
-else:
-    if sayi > 0:
-        print('Pozitif.')
+def positive_or_negative(number):
+    if number == 0:
+        return 'Zero.'
     else:
-        print('Negatif.')
+        if number > 0:
+            return 'Positive.'
+        else:
+            return 'Negative.'
