@@ -1,6 +1,5 @@
 from math import pi
 
-yaricap = float(input('Kürenin yarıçapını giriniz: '))
-
-hacim = (4 / 3) * pi * (yaricap ** 3)
-print(f'{hacim} cm³')
+def volume_of_sphere(radius):
+    volume = (4 / 3) * pi * (radius ** 3)
+    return f'{volume} cm³'
