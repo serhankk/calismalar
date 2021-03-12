@@ -1,8 +1,7 @@
 
-yazi = input('Bir yazı giriniz: ')
-harfSayaci = dict()
-for i in yazi:
-    sayac = yazi.count(i)
-    harfSayaci.update([(i, sayac)])
-
-print(harfSayaci)
+def letter_counter(text):
+    letters_dict = dict()
+    for letter in text:
+        counter = text.count(letter)
+        letters_dict.update([(letter, counter)])
+    return letters_dict
