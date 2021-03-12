@@ -1,7 +1,4 @@
 
-vize1 = int(input('Birinci vize notunuzu giriniz: '))
-vize2 = int(input('İkinci vize notunuzu giriniz:'))
-final = int(input('Final notunuzu giriniz: '))
-
-ortalama = ((vize1 * 30) / 100) + ((vize2 * 30) / 100) + ((final * 40) / 100)
-print(f'Ortalamanız: {ortalama}')
+def midterm_final(midterm, final):
+    average = ((midterm * 0.4) + (final * 0.6))
+    return f'Grade Average: {average}'
