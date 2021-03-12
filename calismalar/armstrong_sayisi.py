@@ -10,12 +10,3 @@ def armstrong_number(number):
         return f'{number} is an Armstrong number.'
     else:
         return f'{number} is not an Armstrong number.'
-    
-x = armstrong_number('152')
-print(x)
-
-x = armstrong_number('153')
-print(x)
-
-x = armstrong_number('154')
-print(x)
