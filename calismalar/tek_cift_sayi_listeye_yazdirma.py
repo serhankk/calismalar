@@ -1,17 +1,9 @@
-print('Bir sayı giriniz: (Çıkmak için "0")')
-
-
-tekSayilar = []
-ciftSayilar = []
-while True:
-    sayi = int(input('>>>'))
-    if sayi == 0:
-        print('Çıkış yapılıyor.')
-        break
-    if sayi % 2 == 0:
-        ciftSayilar.append(sayi)
-        print(f'Çift Sayılar: {ciftSayilar}')
-    else:
-        tekSayilar.append(sayi)
-        print(f'Tek Sayılar: {tekSayilar}')
-exit()
+def seperate_odd_even_numbers(*iterable):
+    odd_numbers = []
+    even_numbers = []
+    for number in iterable:
+        if number % 2 == 0:
+            even_numbers.append(number)
+        else:
+            odd_numbers.append(number)
+    return f'Odd Numbers:  {odd_numbers}\nEven Numbers: {even_numbers}'
