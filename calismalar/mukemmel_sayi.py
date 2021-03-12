@@ -1,11 +1,10 @@
 
-sayi = int(input('Mükemmel sayı kontrolu yapılacak sayı: '))
-
-bolenler = []
-for i in range(1, sayi):
-    if sayi % i == 0:
-        bolenler.append(i)
-if sum(bolenler) == sayi:
-    print(f'{sayi} bir mükemmel sayıdır.')
-else:
-    print(f'{sayi} mükemmel sayı değildir.')
+def perfect_numbers(number):
+    divisors = []
+    for i in range(1, number):
+        if number % i == 0:
+            divisors.append(i)
+    if sum(divisors) == number:
+        return f'{number} is a perfect number.'
+    else:
+        return f'{number} is not a perfect number.'

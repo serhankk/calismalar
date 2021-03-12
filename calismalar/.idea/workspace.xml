@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8da7aa5-1312-4f4b-acbe-116899a6c435" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kurenin_hacmini_bulma.py" beforeDir="false" afterPath="$PROJECT_DIR$/kurenin_hacmini_bulma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mukemmel_sayi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mukemmel_sayi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="$USER_HOME$/Desktop" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.kurenin_hacmini_bulma">
+  <component name="RunManager" selected="Python.mukemmel_sayi">
     <configuration name="kurenin_hacmini_bulma" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="calismalar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uc_sayidan_en_buyugu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mukemmel_sayi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="calismalar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uc_sayidan_en_buyugu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mukemmel_sayi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mukemmel_sayi" />
         <item itemvalue="Python.kurenin_hacmini_bulma" />
         <item itemvalue="Python.vize_final_hesaplama" />
         <item itemvalue="Python.uzanti_bulma" />
         <item itemvalue="Python.ucgen_alan_hesaplama" />
-        <item itemvalue="Python.uc_sayidan_en_buyugu" />
       </list>
     </recent_temporary>
   </component>
