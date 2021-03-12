@@ -1,6 +1,4 @@
 from math import pi
-
-yaricap = float(input('Çemberin yarıçapını giriniz: '))
-
-alan = pi * (yaricap ** 2)
-print(f'Çemberin alanı: {alan} cm²')
+def area_of_circle(radius):
+    area = pi * (radius ** 2)
+    return f'Area of the circle: {area} cm²'
