@@ -1,6 +1,4 @@
-a_kenari = float(input('Üçgenin "a" kenarının uzunluğunu giriniz: '))
-b_kenari = float(input('Üçgenin "b" kenarının uzunluğunu giriniz: '))
 
-hipotenus = ((a_kenari ** 2) + (b_kenari ** 2)) ** 0.5
-
-print(f'Hipotenüs: {float(hipotenus)}')
+def calculate_hypotenuse(opposite_side, adjacent_side):
+    hypotenuse = ((opposite_side ** 2) + (adjacent_side ** 2)) ** 0.5
+    return f'Hypotenuse : {float(hypotenuse)}'

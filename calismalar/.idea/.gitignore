@@ -1,3 +1,6 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+liste1 = [1, 2, 3, 4]
+liste2 = [5, 6, 7, 8]
+
+print(liste1, liste2)
+x = liste2.
+print(x)
