@@ -1,17 +1,15 @@
-print('Lütfen üç adet sayı giriniz: ')
-sayi1 = int(input('1. >>>'))
-sayi2 = int(input('2. >>>'))
-sayi3 = int(input('3. >>>'))
 
-en_buyuk = 'En büyük sayı: '
-
-if sayi1 > sayi2:
-    if sayi1 > sayi3:
-        print(en_buyuk, sayi1)
+def the_biggest_number(first_number, second_number, third_number):
+    the_biggest_one = 'The biggest number is: '
+    if first_number > second_number:
+        if first_number > third_number:
+            return the_biggest_one + str(first_number)
+        else:
+            return the_biggest_one + str(third_number)
+    elif second_number > first_number:
+        if second_number > third_number:
+            return the_biggest_one + str(second_number)
+        else:
+            return the_biggest_one + str(third_number)
     else:
-        print(en_buyuk, sayi3)
-elif sayi2 > sayi1:
-    if sayi2 > sayi3:
-        print(en_buyuk, sayi2)
-    else:
-        print(en_buyuk, sayi3)
+        return the_biggest_one + str(third_number)
