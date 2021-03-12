@@ -1,13 +1,21 @@
-sayi = input('Bir sayı giriniz: ')
 
+def armstrong_number(number):
+    digit = len(number)
+    
+    total = 0
+    for i in range(digit):
+        total += int(number[i]) ** digit
+    
+    if total == int(number):
+        return f'{number} is an Armstrong number.'
+    else:
+        return f'{number} is not an Armstrong number.'
+    
+x = armstrong_number('152')
+print(x)
 
-kac_basamak = len(sayi)
+x = armstrong_number('153')
+print(x)
 
-toplam = 0
-for i in range(kac_basamak):
-    toplam += int(sayi[i]) ** kac_basamak
-
-if toplam == int(sayi):
-    print(f'{sayi} bir Armstrong sayısıdır.')
-else:
-    print(f'{sayi} Armstrong sayısı değildir.')
+x = armstrong_number('154')
+print(x)
