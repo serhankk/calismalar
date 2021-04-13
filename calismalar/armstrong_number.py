@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 def armstrong_number(number):
     digit = len(number)
