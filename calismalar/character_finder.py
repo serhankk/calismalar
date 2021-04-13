@@ -45,6 +45,12 @@ while True:
     if input_ == '0':
         exit('Goodbye.')
     char_ = input('Looking for: ')
+    if len(char_) > 1:
+        print('Please insert only one characher.')
+        continue
+    elif len(char_) > len(input_):
+        print('Input not found!')
+        continue
     calistir = harf_bul(input_, char_)
     print(calistir)
     print('=' * fill_char_len)
