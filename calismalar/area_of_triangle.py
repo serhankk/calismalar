@@ -11,18 +11,29 @@ This program calculates the area of a triangle.
 
 ->Please enter a number.
 ->Enter 0 (Zero) to exit.
-{'=' * fillchar_len}
-{'Enter the Numbers'.center(fillchar_len)}
-{'-' * fillchar_len}''')
+{'-' * fillchar_len}
+{'Enter the Values'.center(fillchar_len, '-')}''')
+
 while True:
     print('Please enter the base of the triangle: ')
-    base = int(input('>>>'))
 
+    try:
+        base = int(input('>>>'))
+        if base == 0:
+            break
+    except:
+        print('Please enter a valid number!')
+        continue
     print('Please enter the height of the triangle: ')
-    height = int(input('>>>'))
 
-    if base == 0 or height == 0:
-        break
+    try:
+        height = int(input('>>>'))
+        if height == 0:
+            break
+    except:
+        print('Please enter a valid number!')
+        continue
     print(calculate_triangle_area(height, base))
+    print('-' * fillchar_len)
 
 exit('Exiting...')
