@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 def calculate_triangle_area(base, height):
     area = (base * height) / 2
