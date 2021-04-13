@@ -19,7 +19,7 @@ print(f'''
 This program calculates if given number is an Armstrong number or not.
 ->Enter one number at a time.
 ->Enter an integer number.
-->Some invalid inputs: [-5, 10.4, -2.5, two, ' '(space)]
+
 
 ->Press "q" to exit.
 {'-' * fillchar_len}
