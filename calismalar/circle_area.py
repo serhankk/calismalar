@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from math import pi
 def area_of_circle(radius):
     area = pi * (radius ** 2)
