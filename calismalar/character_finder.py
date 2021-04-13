@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 fill_char_len = 100
 def harf_bul(input_data, search_char):
 
